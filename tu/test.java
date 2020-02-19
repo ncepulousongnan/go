@@ -8,7 +8,7 @@ public class test {
 		Scanner l=new Scanner(System.in);
 int n=l.nextInt();
 tutu p=new tutu();
-//创建图，8为定点数，20为边数，可变
+//创建图，8为顶点数，20为边数，可变
 p.build(8,20);
 //输入第一个顶点，由这个顶点开始遍历算法
 node q=p.getf(n);
